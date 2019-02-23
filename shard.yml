@@ -1,0 +1,9 @@
+name: LibO
+version: 0.1.0
+
+authors:
+  - Myersj281 <myersj281@gmx.com>
+
+crystal: 0.27.0
+
+license: MIT
