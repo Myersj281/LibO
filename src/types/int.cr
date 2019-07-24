@@ -3,7 +3,7 @@
 # end
 
 struct Int
-  # auto create smallest int possible and create new int of minimal possible size to store the new value with the same identifier if neccessary.
+  # Auto create smallest int possible and create new int of minimal possible size to store the new value with the same identifier if neccessary.
 
   def <<(count)
     unsafe_shl(count)

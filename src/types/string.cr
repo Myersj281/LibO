@@ -1,5 +1,3 @@
-
-
 class String
   def size
     @length

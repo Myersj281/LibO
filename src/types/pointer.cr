@@ -11,4 +11,12 @@ struct Pointer(T)
   def []=(offset : Int, data : T)
     (self + offset.to_i64).value = data
   end
+
+  def ==(other : Int)
+    if T == other
+      return true
+    else
+      return flase
+    end
+  end
 end
